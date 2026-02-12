@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MPRV STUDIO - Fewer, Better Purchases</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="index.html" class="logo">MPRV STUDIO</a>
+                <nav class="nav">
+                    <a href="#discover">Discover</a>
+                    <a href="weekly.html">Weekly</a>
+                    <div class="dropdown">
+                        <a href="categories.html">Categories</a>
+                        <div class="dropdown-content">
+                            <a href="category.html?cat=grooming">Grooming</a>
+                            <a href="category.html?cat=tech">Tech</a>
+                            <a href="category.html?cat=fitness">Fitness</a>
+                            <a href="category.html?cat=food">Food</a>
+                            <a href="category.html?cat=home">Home Décor</a>
+                            <a href="category.html?cat=apps">Phone Apps</a>
+                            <a href="category.html?cat=cases">Phone Cases</a>
+                            <a href="category.html?cat=clothes">Clothes</a>
+                            <a href="category.html?cat=watches">Watches</a>
+                        </div>
+                    </div>
+                    <a href="packs.html">Packs</a>
+                    <a href="club.html">Club</a>
+                    <a href="concierge.html">Concierge</a>
+                    <a href="newsletter.html">Newsletter</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Fewer, Better Purchases</h1>
+            <p class="subtitle">Curated products. Weekly rotation. No decision fatigue.</p>
+            <div class="cta-group">
+                <a href="#weekly" class="btn btn-primary">See This Week's Picks</a>
+                <a href="newsletter.html" class="btn btn-secondary">Get Weekly Shortlist</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Weekly -->
+    <section id="weekly" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>This Week's Shortlist</h2>
+                <p>12-18 items. Picked for you. Updated every Monday.</p>
+            </div>
+            <div id="weekly-grid" class="product-grid">
+                <!-- Products loaded via JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Essentials Preview -->
+    <section class="section bg-mist">
+        <div class="container">
+            <div class="section-header">
+                <h2>Essentials</h2>
+                <p>The core 108. 12 items per category. Always available.</p>
+                <a href="categories.html" class="link">Browse All Categories →</a>
+            </div>
+            <div class="category-preview">
+                <div class="category-card">
+                    <img src="https://via.placeholder.com/300x200/081630/FDFEFE?text=Grooming" alt="Grooming">
+                    <h3>Grooming</h3>
+                    <p>12 essentials</p>
+                    <a href="category.html?cat=grooming" class="link">Explore →</a>
+                </div>
+                <div class="category-card">
+                    <img src="https://via.placeholder.com/300x200/081630/FDFEFE?text=Tech" alt="Tech">
+                    <h3>Tech</h3>
+                    <p>12 essentials</p>
+                    <a href="category.html?cat=tech" class="link">Explore →</a>
+                </div>
+                <div class="category-card">
+                    <img src="https://via.placeholder.com/300x200/081630/FDFEFE?text=Fitness" alt="Fitness">
+                    <h3>Fitness</h3>
+                    <p>12 essentials</p>
+                    <a href="category.html?cat=fitness" class="link">Explore →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Packs Teaser -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Curated Packs</h2>
+                <p>Complete setups. One click to buy everything.</p>
+                <a href="packs.html" class="link">View All Packs →</a>
+            </div>
+            <div id="packs-preview" class="packs-grid">
+                <!-- Packs loaded via JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Club CTA -->
+    <section class="section bg-navy">
+        <div class="container text-center">
+            <h2 class="text-white">Join the Club</h2>
+            <p class="text-white">$20/month. Members get early access, voting rights, and exclusive sessions.</p>
+            <a href="club.html" class="btn btn-primary">Learn More</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>MPRV STUDIO</h4>
+                    <p>Fewer, better purchases.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Navigate</h4>
+                    <a href="weekly.html">Weekly</a>
+                    <a href="categories.html">Categories</a>
+                    <a href="packs.html">Packs</a>
+                    <a href="club.html">Club</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <a href="about.html">About</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="legal.html">Legal & Disclosure</a>
+                    <a href="privacy.html">Privacy & Terms</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Social</h4>
+                    <a href="#">Instagram</a>
+                    <a href="#">X (Twitter)</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 MPRV STUDIO. All rights reserved.</p>
+                <p class="disclaimer">As an Amazon Associate, MPRV STUDIO earns from qualifying purchases. We may receive commissions from affiliate links on this site. <a href="legal.html">Full disclosure</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Analytics -->
+    <script src="analytics.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
